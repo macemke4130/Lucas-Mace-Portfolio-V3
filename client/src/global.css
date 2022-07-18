@@ -1,0 +1,110 @@
+/* 
+
+Dark Color
+#122620
+
+Light Color
+#DCB78D
+
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+::selection {
+    background-color: #DCB78D;
+    color: #122620;
+}
+
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mainContent {
+    padding: 0.5rem;
+    transition: margin 500ms ease 100ms;
+    background-size: cover;
+    background-position: bottom;
+    height: 80vh;
+}
+
+.mainAddPadding {
+    /* margin-left: 15rem; */
+}
+
+.pageContainer {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.pageContainer p {
+    text-align: justify;
+    margin: 1rem;
+}
+
+.navList a:focus-visible,
+.hamburgerButton:focus-visible,
+button:focus-visible {
+    outline: 3px solid firebrick;
+}
+
+.pageWrapper {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.pageWrapper p {
+    color: #DCB78D;
+    margin: 0 0 1rem 0;
+}
+
+.pageWrapper p a {
+    color: #DCB78D;
+}
+
+.pageTitle {
+    text-align: center;
+    color: #DCB78D;
+    font-size: 1.5rem;
+}
+
+.purpleCard {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgba(83, 4, 23, 0.9);
+}
+
+@media (max-width: 800px) {
+    body {
+        background-position: top 0 left -25rem;
+    }
+
+    .pageWrapper {
+        display: block;
+    }
+}

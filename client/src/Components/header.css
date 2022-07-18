@@ -1,0 +1,35 @@
+header {
+    height: 20vh;
+}
+
+header .textContainer {
+    padding-top: 1rem;
+}
+
+.myName, .myTitle {
+    text-align: center;
+    background-color: rgba(83, 4, 23, 0.95);
+    color: #DCB78D;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.25rem 0.75rem;
+}
+
+.myName {
+    font-size: 1.75rem;
+}
+
+.myTitle {
+    font-size: 1.25rem;
+}
+
+.myFace {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+    header {
+        height: auto;
+    }
+}
