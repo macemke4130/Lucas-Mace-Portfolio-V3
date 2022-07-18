@@ -11,9 +11,6 @@ function Navigation(props) {
     const navDrawer = useRef();
     const hamburgerRef = useRef();
 
-    const hamburgerOpenText = "Open Navigation";
-    const hamburgerClosedText = "Close Navigation";
-
     useOnClickOutside(navDrawer, () => {
         if (navDrawer.current.classList.contains("openNav")) toggleNav();
     });
@@ -48,7 +45,6 @@ function Navigation(props) {
                 <button onClick={toggleNav} className="closeNavButton">Close Navigation</button>
             </div>
         </>
-
     );
 }
 

@@ -17,7 +17,6 @@ function BioPage() {
                         <p>I currently works as the Lead Front End Web, React and UX/UI Developer for <a href="https://www.eriksbikeshop.com/" rel="noreferrer" target="_blank">Erik's Bike Shop</a>, one of the largest bicycle and Winter sports shops in America.</p>
                         <p>My favorite tech stack currently is React, GraphQL, Express and MySQL. If you're a bicycle nerd, you may enjoy my <a href="http://www.namethatpart.com/" rel="noreferrer" target="_blank">Name That Part</a> game that utilizes those technologies.</p>
                         <p>In my free time, I enjoy fixing bicycles, but they're much more fun to ride. I also love coffee, hiking, camping, skateboarding, photography and live music.</p>
-                        <p>I should also mention that I know how to center a div.</p>
                     </div>
                 </div>
             </div>

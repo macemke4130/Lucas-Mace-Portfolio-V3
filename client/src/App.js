@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Pages
@@ -10,6 +9,7 @@ import ContactPage from './Pages/ContactPage';
 import ProjectsPage from './Pages/ProjectsPage';
 
 // Components
+import FixedBackground from './Components/FixedBackground';
 import Navigation from './Components/Navigation';
 import Header from './Components/Header';
 
@@ -19,13 +19,10 @@ import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
 
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-
   return (
     <Router>
       <ScrollToTop />
+      <FixedBackground />
       <Header />
       <Navigation />
 

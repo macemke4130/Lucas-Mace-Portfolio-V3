@@ -35,7 +35,7 @@
     left: 0;
     width: 15rem;
     bottom: 0;
-    background-color: #530417;
+    background-color: rgba(83, 4, 23, 0.9);
     border-right: 2px solid black;
     transform: translateX(-100%);
     overflow: hidden;

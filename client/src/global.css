@@ -67,7 +67,8 @@ body {
 
 .navList a:focus-visible,
 .hamburgerButton:focus-visible,
-button:focus-visible {
+button:focus-visible,
+a:focus-visible {
     outline: 3px solid firebrick;
 }
 
@@ -100,10 +101,6 @@ button:focus-visible {
 }
 
 @media (max-width: 800px) {
-    body {
-        background-position: top 0 left -25rem;
-    }
-
     .pageWrapper {
         display: block;
     }
