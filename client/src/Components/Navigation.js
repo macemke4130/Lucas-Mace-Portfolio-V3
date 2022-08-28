@@ -7,6 +7,9 @@ import "./navigation.css";
 // Hooks
 import useOnClickOutside from '../utils/useClickOutside';
 
+// Components
+import Speech from './Speech';
+
 function Navigation(props) {
     const navDrawer = useRef();
     const hamburgerRef = useRef();
@@ -30,6 +33,7 @@ function Navigation(props) {
                     </div>
                 </button>
             </div>
+            <Speech />
 
             <div ref={navDrawer} className="navContainer">
                 <nav>
