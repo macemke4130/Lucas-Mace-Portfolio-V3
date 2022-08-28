@@ -33,7 +33,7 @@ function Navigation(props) {
                     </div>
                 </button>
             </div>
-            <Speech />
+            {/* <Speech /> */}
 
             <div ref={navDrawer} className="navContainer">
                 <nav>

@@ -14,7 +14,6 @@ function Speech(props) {
 
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
-
     useEffect(() => {
         if (!SpeechRecognition) return;
         setSpeechAvailable(true);
