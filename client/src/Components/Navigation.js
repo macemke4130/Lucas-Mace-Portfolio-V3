@@ -8,7 +8,7 @@ import "./navigation.css";
 import useOnClickOutside from '../utils/useClickOutside';
 
 // Components
-import Speech from './Speech';
+// import Speech from './Speech';
 
 function Navigation(props) {
     const navDrawer = useRef();

@@ -20,7 +20,6 @@ function Speech(props) {
         setShowSpeechButton(openGate ? true : false);
     })
 
-
     useEffect(() => {
         if (!useSpeech) return;
         if (!openGate) return;
