@@ -14,7 +14,7 @@ const generate = () => {
 
 const sendToPrint = (e) => {
     e.preventDefault();
-    
+
     localStorage.clear();
     localStorage.setItem("title", inputTitle.value);
     localStorage.setItem("body", inputBody.value);
@@ -23,10 +23,10 @@ const sendToPrint = (e) => {
     inputBody.value = clear;
     titlePreview.innerText = clear;
     bodyPreview.innerText = clear;
-    
+
     inputTitle.focus();
 
-    window.open("/printCustomSticker.html", "_blank");
+    window.open("./printCustomSticker.html", "_blank");
 }
 
 document.getElementById("controls").onsubmit = sendToPrint;
