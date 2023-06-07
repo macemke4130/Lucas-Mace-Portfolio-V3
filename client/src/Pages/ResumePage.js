@@ -16,7 +16,7 @@ function ResumePage() {
                     <a href="./2022-lucas-mace-web-dev-resume.pdf" download="lucas-mace-web-dev-resume.pdf" className="downloadResume">Download PDF</a>
                     <div className="purpleCard">
                         <h4 className="resumeTitle">Skills</h4>
-                        <p>React, GraphQL, TypeScript, JavaScript, UX/UI, MySQL, Node JS, Express JS, JSON, JQuery, REST, HTML5, CSS3, Styled Components, SPAs, GitHub, Salesforce / Heroku, VTEX, Adobe Suite</p>
+                        <p>React, GraphQL, TypeScript, JavaScript, Next JS, UX/UI, MySQL, Node JS, Express JS, VTEX, JSON, JQuery, REST, HTML5, CSS3, Styled Components, SPAs, GitHub, Salesforce / Heroku, Adobe Suite</p>
                     </div>
                     <div className="purpleCard">
                         <h4 className="resumeTitle">Experience</h4>
