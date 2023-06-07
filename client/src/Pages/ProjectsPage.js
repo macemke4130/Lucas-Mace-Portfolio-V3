@@ -44,7 +44,6 @@ function ProjectsPage() {
                             <p className="projectDesc">A scaling and dynamically loaded HTML table. JSON data is fed in, a fully dynamic comparison table is displayed. Controlled by a single prop object. Columns and Rows highlight to the table cell that is moused over.</p>
                             <p className="techStackTitle">Tech Stack</p>
                             <p className="techStack">React</p>
-                            <p className="projectLink"><a href="https://dynamic-react-table.herokuapp.com/" target="_blank" rel="noreferrer">Live Project</a></p>
                             <p className="projectLink"><a href="https://github.com/macemke4130/Dynamic-React-Table-Component" target="_blank" rel="noreferrer">GitHub Repo</a></p>
                         </div>
                     </div>
@@ -55,7 +54,6 @@ function ProjectsPage() {
                             <p className="projectDesc">A scaling and self routing navigation menu. JSON data is fed in, a fully dynamic navigation is displayed, complete with submenus.</p>
                             <p className="techStackTitle">Tech Stack</p>
                             <p className="techStack">React, React Router</p>
-                            <p className="projectLink"><a href="https://dynamic-nav.herokuapp.com/" target="_blank" rel="noreferrer">Live Project</a></p>
                             <p className="projectLink"><a href="https://github.com/macemke4130/Navigation-Menu" target="_blank" rel="noreferrer">GitHub Repo</a></p>
                         </div>
                     </div>
@@ -66,7 +64,6 @@ function ProjectsPage() {
                             <p className="projectDesc">Database of all grass hills in the Twin Cities and greater surrounding areas that are suitable to ride your bicycle down. Why? Because it's really fun. I built this project to familiarize myself with GraphQL. Complete with photos, videos and maps to each hill, this has become a favorite passion project of mine.</p>
                             <p className="techStackTitle">Tech Stack</p>
                             <p className="techStack">Vanilla JS, GraphQL, Express, MySQL</p>
-                            <p className="projectLink"><a href="http://www.twincitiessendit.com/" target="_blank" rel="noreferrer">Live Project</a></p>
                             <p className="projectLink"><a href="https://github.com/macemke4130/Twin-Cities-Send-It" target="_blank" rel="noreferrer">GitHub Repo</a></p>
                         </div>
                     </div>
@@ -77,7 +74,6 @@ function ProjectsPage() {
                             <p className="projectDesc">Full Stack Application for personal use listing the expiration dates of all the food in my kitchen so I may better plan my meals and reduce food waste.</p>
                             <p className="techStackTitle">Tech Stack</p>
                             <p className="techStack">React, GraphQL, Express, MySQL, Day.js</p>
-                            <p className="projectLink"><a href="http://whats-still-good.herokuapp.com/" target="_blank" rel="noreferrer">Live Project</a></p>
                             <p className="projectLink"><a href="https://github.com/macemke4130/whats-good" target="_blank" rel="noreferrer">GitHub Repo</a></p>
                         </div>
                     </div>
@@ -88,7 +84,6 @@ function ProjectsPage() {
                             <p className="projectDesc">Proof of concept tool to help at home baristas to keep track of and maintain their coffee brewing techniques. Choose your preferred brewing method and the app frontloads your previous brew into the input fields to cut down on redundancies. I use this app almost every day. Feel free to sign up!</p>
                             <p className="techStackTitle">Tech Stack</p>
                             <p className="techStack">React JS, TypeScript, Express, Passport, BCrypt, MySQL, WebPack, React Router</p>
-                            <p className="projectLink"><a href="https://coffee-brew-profiler.herokuapp.com/" target="_blank" rel="noreferrer">Live Project</a></p>
                             <p className="projectLink"><a href="https://github.com/macemke4130/Coffee-Brew-Profiler" target="_blank" rel="noreferrer">GitHub Repo</a></p>
                         </div>
                     </div>
@@ -99,7 +94,6 @@ function ProjectsPage() {
                             <p className="projectDesc">Sometimes deciding to upgrade your bike can be a difficult decision. This calculator will give you the dollars per gram (or ounces) for a supplied component upgrade.</p>
                             <p className="techStackTitle">Tech Stack</p>
                             <p className="techStack">Vanilla JS, Express</p>
-                            <p className="projectLink"><a href="https://shaving-grams.herokuapp.com/" target="_blank" rel="noreferrer">Live Project</a></p>
                             <p className="projectLink"><a href="https://github.com/macemke4130/Grams-Per-Dollar" target="_blank" rel="noreferrer">GitHub Repo</a></p>
                         </div>
                     </div>
